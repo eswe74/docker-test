@@ -16,8 +16,14 @@
 
     https://www.youtube.com/watch?v=HwATG0ygxzU
 
-## docker pull eswe/node-web-app:latest
+## pull image from dockerhub
 
-## docker run --detach --publish 5000:80 eswe/node-web-app:latest
+    docker pull eswe/node-web-app:latest
 
-## test http://localhost
+## run container
+    
+    docker run --detach --publish 5000:8080 eswe/node-web-app:latest
+
+## test 
+
+    curl http://localhost:5000

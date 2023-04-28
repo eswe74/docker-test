@@ -1,4 +1,4 @@
-## test image
+## test image in local environment
 
     docker build . -t eswe/node-web-app
 

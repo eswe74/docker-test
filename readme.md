@@ -27,3 +27,11 @@
 ## test 
 
     curl http://localhost:5000
+
+## add watchtower 
+
+    docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock v2tec/watchtower -i 30
+
+## logs
+
+    docker logs watchtower

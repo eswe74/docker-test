@@ -32,6 +32,6 @@
 
     docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock v2tec/watchtower -i 30
 
-## do changes to code and containes are automatically stopped/started with newest version
+## do changes to code and containes are automatically stopped/started with newest version.
 
     docker logs watchtower
